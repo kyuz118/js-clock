@@ -1,0 +1,17 @@
+body {
+  background-color: #ecf0f1;
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+.btn {
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
