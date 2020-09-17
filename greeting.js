@@ -28,7 +28,7 @@ function askForName() {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN); //입력창 지우기
   greetings.classList.add(SHOWING_CN); // h4 보이기
-  greetings.innerText = `hello ${text}`; // hello text 추가하기
+  greetings.innerText = `Hello ${text}`; // hello text 추가하기
 }
 
 function loadName() {
